@@ -1,0 +1,201 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+background-image: url("../images/bg1.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: #1a2530;
+}
+.main-wrapper {
+width: 100%;
+}
+.header-banner-table {
+width: 100%;
+max-width: 100%;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.main-header-banner {
+width: 100%;
+height: 130px;
+border-radius: 0px;
+display: block;
+}
+.nav-bar {
+background: #400F61;
+width: 100%; 
+max-width: 100%;
+margin-top: 0px;
+padding: 15px 0px; 
+border-radius: 0px;
+}
+.nav-central-container {
+text-align: center;
+vertical-align: middle;
+white-space: nowrap; 
+}
+.nav-link-item,
+.btn-resume {
+color: white;
+background-color: transparent;
+text-decoration: none;
+margin: 0 6px; 
+padding: 8px 16px;
+font-weight: bold;
+font-size: 14px;
+border: 1px solid black;
+border-radius: 20px;
+display: inline-block;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+vertical-align: middle;
+transition: all 0.3s ease-in-out;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+vertical-align: middle;
+margin: 0 6px; 
+}
+.dropdown .dropbtn {
+background-color: transparent;
+color: white;
+font-size: 14px;
+font-weight: bold;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+border: 1px solid black;
+border-radius: 20px;
+cursor: pointer;
+padding: 8px 16px;
+display: inline-block;
+transition: all 0.3s ease-in-out;
+}
+.nav-link-item:hover,
+.dropdown:hover .dropbtn,
+.btn-resume:hover,
+.social-pill:hover {
+color: black;
+background-color: #4FE1FF;
+border-color: #4FE1FF;
+box-shadow: 0 0 10px #4FE1FF, 0 0 20px #4FE1FF, 0 0 30px #4FE1FF;
+transform: translateY(-1px); 
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #4FE1FF; 
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1000;
+margin-top: 10px;
+border-radius: 4px;
+padding: 5px 0;
+left: 50%;
+transform: translateX(-50%); 
+}
+.right-align-dropdown .dropdown-content {
+left: auto !important;
+right: 0 !important;
+transform: none;
+}
+.dropdown-content a {
+color: black;
+padding: 10px 20px;
+text-decoration: none;
+display: block;
+font-size: 14px;
+font-weight: 500;
+margin: 0 !important;
+border: none !important; 
+border-radius: 0px; 
+text-align: left;
+white-space: nowrap; 
+transition: background-color 0.2s ease, color 0.2s ease;
+}
+.dropdown-content a:hover {
+background-color: #400F61; 
+color: white;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown::before {
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+height: 12px;
+}
+.hero-section {
+padding: 40px 0 60px 0;
+max-width: 1000px;
+margin: 0 auto;
+}
+.content-card {
+background: rgba(64, 15, 97, 0.45);
+border: 1px solid rgba(79, 225, 255, 0.2);
+border-radius: 20px;
+padding: 25px;
+width: 100%;
+max-width: 440px;
+box-sizing: border-box;
+backdrop-filter: blur(5px);
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.hero-subtitle {
+font-size: 14px;
+color: #FAF7F7;
+margin-bottom: 0px;
+line-height: 1.8;
+text-align: left;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+.bio-label {
+color: #4FE1FF;
+font-weight: bold;
+text-shadow: 0 0 5px rgba(79, 225, 255, 0.4);
+margin-right: 5px;
+}
+.inline-avatar-square {
+width: 180px;
+height: 180px;
+object-fit: cover;
+border: 3px solid #4FE1FF;
+border-radius: 16px;
+box-shadow: 0 0 15px rgba(79, 225, 255, 0.4);
+display: block;
+}
+.square-video-wrapper {
+width: 180px;
+height: 180px;
+border-radius: 16px;
+border: 3px solid #ff9a00;
+box-shadow: 0 0 15px rgba(255, 154, 0, 0.4);
+overflow: hidden;
+background: #000000;
+position: relative;
+}
+.inline-video-square {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+.disclaimer-area {
+background-image: url("../images/bg1.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 20px 0;
+margin-top: 40px;
+width: 100%;
+}
+.disclaimer-area p {
+font-size: 11px;
+color: white;
+margin: 0;
+}
